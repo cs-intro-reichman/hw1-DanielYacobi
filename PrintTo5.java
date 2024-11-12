@@ -5,7 +5,7 @@ public class PrintTo5 {
         int i = 0; // Declares an int variable, and sets it to 0
         while (i < 6) {
             System.out.println(i); // Prints the current value of i
-            i = i + 1; // Makes i bigger by 1
+            i = i + 1; // Makes i bigger 
         }
         System.out.println("done"); 
     }
