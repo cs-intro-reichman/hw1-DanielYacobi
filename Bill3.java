@@ -9,7 +9,7 @@ public class Bill3 {
 		double eachpay = (double)(value); //converts the restaurant bill into a double
 		eachpay = Math.ceil(eachpay / 3); //divides the bill into 3 and rounds up the answer
 
-		System.out.println("Dear " + name1 + ", " + name2 + ", and " + name3 + ": pay " + eachpay + " Shekels each.");
+		System.out.println("Dear " + name3 + ", " + name2 + ", and " + name1 + ": pay " + eachpay + " Shekels each.");
 		//receives the input and prints the outcome
 	}
 }
