@@ -7,7 +7,7 @@ public class FVCalc {
 		int n = Integer.parseInt(args[2]); //number of years, assumed to be an nonnegative int
 		int futureValue = (int)(currentValue * Math.pow(1 + rate * 0.01, n)); //currentValue ⋅ (1 + rate) times n
 
-		System.out.println("After " + n + " years, $" + currentValue + " saved at " + (double)(rate) +
-		"% will yield $ " + futureValue); // receives the input and prints the outcome
+		System.out.println("After " + n + " years, a $" + currentValue + " saved at " + (double)(rate) +
+		"% will yield $" + futureValue); // receives the input and prints the outcome (not written correctly in pdf)
 	}
 }
